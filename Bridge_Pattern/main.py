@@ -1,7 +1,5 @@
 from remote_control import RemoteControl
-from devices.TV import TV
-from devices.Radio import Radio
-from devices.Projector import Projector
+from devices import TV, Radio, Projector
 
 
 tv = TV

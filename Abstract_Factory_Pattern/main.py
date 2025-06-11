@@ -1,14 +1,15 @@
-from Factories.ToyotaFactory.toyota_factory import ToyotaFactory
-from Factories.BMWFactory.BMW_factory import BMWFactory
+from Factories import ToyotaFactory, BMWFactory
 
 
 vechile = input("Enter the vechile: ").lower()
 
+# Enter the vechile in that shape "{car_type} car" e.x: toyota car, toyota bike, toyota truck, bmw car, ..
+
 if 'toyota' in vechile:
-    vechile = ToyotaFactory().get_vechile(vechile)
-    print(vechile.get_specs())
+    vechile, _ = ToyotaFactory().get_vechile(vechile)
+    print(vechile.get_specs()) if _ else print(vechile)
 elif 'bmw' in vechile:
-    vechile = BMWFactory().get_vechile(vechile)
-    print(vechile.get_specs()) 
+    vechile, _ = BMWFactory().get_vechile(vechile)
+    print(vechile.get_specs()) if _ else print(vechile)
 else:
     print("No vechile found")

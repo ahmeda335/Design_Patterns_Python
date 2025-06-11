@@ -1,4 +1,4 @@
-from Builder.ComputerBuilder import ComputerBuilder
+from Builder import ComputerBuilder
 
 
 class GamingComputer:

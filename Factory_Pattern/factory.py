@@ -1,7 +1,4 @@
-from Vechiles.Car import Car
-from Vechiles.Bike import Bike
-from Vechiles.Truck import Truck
-
+from Vechiles import Car, Bike, Truck
 
 class Factory:
     @staticmethod

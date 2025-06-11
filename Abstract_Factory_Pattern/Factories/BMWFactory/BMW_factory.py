@@ -1,7 +1,5 @@
-from ..factory import IFactory
-from .BMWVechiles.Car import Car
-from .BMWVechiles.Bike import Bike
-from .BMWVechiles.Truck import Truck
+from .. import IFactory
+from .BMWVechiles import Car, Bike, Truck
 
 class BMWFactory(IFactory):
     
@@ -9,12 +7,12 @@ class BMWFactory(IFactory):
     def get_vechile(vechile):
         try:
             if vechile == 'bmw car':
-                return Car()
+                return Car(), True
             elif vechile == 'bmw bike':
-                return Bike()
+                return Bike(), True
             elif vechile == 'bmw truck':
-                return Truck()
+                return Truck(), True
             else:
-                return "No vechile found"
+                return "No vechile found", False
         except:
-            return "Error happened"
+            return "Error happened", False

@@ -1,7 +1,4 @@
-from actions.authenticate import Authenticate
-from actions.debug import Debug
-from actions.error import Error
-from actions.success import Success
+from actions import Authenticate, Error, Debug, Success
 
 
 success = Success()

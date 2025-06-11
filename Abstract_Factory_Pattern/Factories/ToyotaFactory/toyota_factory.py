@@ -9,13 +9,13 @@ class ToyotaFactory(IFactory):
     def get_vechile(vechile):
         try:
             if vechile == 'toyota car':
-                return Car()
+                return Car(), True
             elif vechile == 'toyota bike':
-                return Bike()
+                return Bike(), True
             elif vechile == 'toyota truck':
-                return Truck()
+                return Truck(), True
             else:
-                return "No vechile found"
+                return "No vechile found", False
         except:
-            return "Error happened"
+            return "Error happened", False
         

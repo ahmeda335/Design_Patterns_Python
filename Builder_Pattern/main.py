@@ -1,5 +1,4 @@
-from ComputerTypes.OfficeComputer import OfficeComputer
-from ComputerTypes.GamingComputer import GamingComputer
+from ComputerTypes import GamingComputer, OfficeComputer
 
 
 type = input("Type the computer you want(gaming, office): ").lower()
