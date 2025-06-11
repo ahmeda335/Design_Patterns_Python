@@ -20,6 +20,11 @@ Welcome to my personal repository of **Design Patterns in Python** — a learnin
 - **Bridge** – Separates abstraction (remote controls) from implementation (TV/Radio).
 - **Composite** – Represents a file system with files and folders in a tree structure.
 - **Flyweight** – Shares tree types efficiently using a factory to save memory.
+- **Proxy** – Controls access to a resource (e.g., secure file access) by acting as a substitute with additional permission checks.
+
+### 📌Behavioral Patterns
+- **Command** – Encapsulates requests (like turning lights on/off) as objects, allowing undo/redo and request queuing.
+- **Chain of Responsibility** – Passes a request (e.g., ATM cash dispense) along a chain of handlers until one processes it.
 
 ---
 
