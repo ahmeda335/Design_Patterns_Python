@@ -22,9 +22,11 @@ Welcome to my personal repository of **Design Patterns in Python** — a learnin
 - **Flyweight** – Shares tree types efficiently using a factory to save memory.
 - **Proxy** – Controls access to a resource (e.g., secure file access) by acting as a substitute with additional permission checks.
 
-### 📌Behavioral Patterns
+### 📌 Behavioral Patterns
 - **Command** – Encapsulates requests (like turning lights on/off) as objects, allowing undo/redo and request queuing.
 - **Chain of Responsibility** – Passes a request (e.g., ATM cash dispense) along a chain of handlers until one processes it.
+- **Observer** – Notifies multiple subscribers (e.g., email/SMS alerts) automatically when the state of a subject (like stock price or weather) changes.
+- **Visitor** – Separates algorithms from object structures (e.g., applying operations like tax calculation or reporting to different employee types) by letting new operations be added without modifying the objects.
 
 ---
 
