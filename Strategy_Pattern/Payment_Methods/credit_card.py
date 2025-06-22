@@ -8,3 +8,5 @@ class CreditCardPayment(PaymentInterface):
     def pay(self):
         return f"Credit Card Payment Successful   -->  {self.amount}$"
     
+    __call__ = pay
+    

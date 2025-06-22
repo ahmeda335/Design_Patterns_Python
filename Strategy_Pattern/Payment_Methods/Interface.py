@@ -6,3 +6,4 @@ class PaymentInterface(metaclass=ABCMeta):
     @abstractmethod
     def pay():
         "This function must be applied on all payment methods."
+        

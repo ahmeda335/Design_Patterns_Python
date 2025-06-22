@@ -7,3 +7,5 @@ class PayPalPayment(PaymentInterface):
         
     def pay(self):
         return f"Paypal Payment Successful   -->   {self.amount}$"
+    
+    __call__ = pay

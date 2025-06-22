@@ -7,3 +7,5 @@ class CryptoPayment(PaymentInterface):
         
     def pay(self):
         return f"Crypto Payment Successful   -->  {self.amount}$"    
+    
+    __call__ = pay
