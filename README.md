@@ -26,6 +26,7 @@ Welcome to my personal repository of **Design Patterns in Python** — a learnin
 - **Command** – Encapsulates requests (like turning lights on/off) as objects, allowing undo/redo and request queuing.
 - **Chain of Responsibility** – Passes a request (e.g., ATM cash dispense) along a chain of handlers until one processes it.
 - **Observer** – Notifies multiple subscribers (e.g., email/SMS alerts) automatically when the state of a subject (like stock price or weather) changes.
+- **Mediator** – Centralizes communication between objects (e.g., chatroom participants or UI components), reducing direct dependencies and simplifying interactions.
 - **Memento** – Captures and restores an object's internal state (e.g., text editor undo/redo), allowing rollback without exposing implementation details.
 - **State** – Allows an object (e.g., a media player) to change its behavior when its internal state changes, such as switching between play, pause, and stop modes.
 - **Strategy** – Selects different algorithms (e.g., sorting methods or payment strategies) at runtime by encapsulating them as interchangeable objects.
