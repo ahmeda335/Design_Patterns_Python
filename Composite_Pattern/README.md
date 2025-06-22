@@ -8,6 +8,16 @@ The Composite pattern lets you treat individual objects (`File`) and composition
 
 ---
 
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Make sure you have Python 3.6+ installed.
+3. Run the main file using the command below:
+
+```bash
+python main.py
+```
+
 ## Structure
 
 ### 🧩 Components

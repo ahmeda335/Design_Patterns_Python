@@ -7,6 +7,15 @@ This project demonstrates the **Flyweight Design Pattern** using a forest of tre
 The Flyweight pattern is useful when you need to create a large number of similar objects and want to reduce memory consumption by sharing common parts of state.
 
 ---
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Make sure you have Python 3.6+ installed.
+3. Run the main file using the command below:
+
+```bash
+python main.py
+```
 
 ## Structure
 

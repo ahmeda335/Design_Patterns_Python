@@ -14,4 +14,13 @@ This project demonstrates the **Factory Design Pattern** using different types o
 - Motorcycle
 
 
+---
+## 🚀 How to Run
 
+1. Clone or download this repository.
+2. Make sure you have Python 3.6+ installed.
+3. Run the main file using the command below:
+
+```bash
+python main.py
+```

@@ -37,3 +37,15 @@ Each method calls the necessary operations from the complex subsystems behind th
 ```python
 controller = SmartHomeController()
 controller.activate_night_mode()
+
+
+---
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Make sure you have Python 3.6+ installed.
+3. Run the main file using the command below:
+
+```bash
+python main.py
+```

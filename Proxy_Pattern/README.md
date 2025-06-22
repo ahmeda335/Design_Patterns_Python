@@ -27,6 +27,16 @@ Proxy_Pattern/
 
 ---
 
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Make sure you have Python 3.6+ installed.
+3. Run the main file using the command below:
+
+```bash
+python main.py
+```
+
 ## 🧩 How It Works
 
 - `Document`: An abstract base class that defines a common interface (`display`) for all document types.

@@ -10,6 +10,17 @@ This project is an implementation of the **Chain of Responsibility** design patt
 
 ---
 
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Make sure you have Python 3.6+ installed.
+3. Run the main file using the command below:
+
+```bash
+python main.py
+```
+---
+
 ## ⚙️ Components
 
 ### 🧩 Abstract Handler - `Dispenser`

@@ -66,3 +66,13 @@ payment.pay(100)
 - Makes integration of **legacy systems** smoother.
 - Encourages a **clean interface design**.
 
+---
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Make sure you have Python 3.6+ installed.
+3. Run the main file using the command below:
+
+```bash
+python main.py
+```
